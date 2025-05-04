@@ -38,3 +38,13 @@ make clean
 
 ## 📊 Input Data Format
 
+
+## 📊 Input Data Format
+
+CSV file with numeric features and target:
+```csv
+x1,x2,...,xn,y
+1.0,2.0,...,4.5
+...
+```
+The last column is the target y.

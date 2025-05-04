@@ -1,18 +1,40 @@
 # Gradient Boosting from Scratch (C++)
 
-This project is an educational implementation of **Gradient Boosting for regression** written entirely in **C++** from scratch.
+This project is a simple, educational implementation of **Gradient Boosting Regressor** in C++ from scratch.
 
-The goal is to deeply understand the inner workings of gradient boosting, decision stumps, and the boosting process by manually coding the entire pipeline — without using external machine learning libraries.
-
----
+It uses **decision stumps (1-level decision trees)** as weak learners to fit a regression model by minimizing mean squared error.
 
 ## 🚀 Features
+- Gradient Boosting for regression
+- Decision Stump weak learners
+- CSV data loader
+- Simple console predictions
 
-✅ Gradient Boosting Regressor implementation  
-✅ Uses **decision stumps** (1-level decision trees) as weak learners  
-✅ Fits an ensemble by sequentially minimizing **mean squared error (MSE)**  
-✅ Fully written in modern C++ (C++17)  
-✅ Loads data from a CSV file  
-✅ Console-based predictions output
+## 📁 Project Structure
+- `src/` — source files (.cpp)
+- `include/` — header files (.h)
+- `data/` — input CSV file
+- `build/` — compiled binaries
 
----
+## ⚙️ Build Instructions
+
+Make sure you have `clang++` or `g++` installed.
+
+To build the project:
+
+```bash
+make
+```
+
+To run:
+```bash
+./build/main
+```
+
+To clean:
+```bash
+make clean
+```
+
+## 📊 Input Data Format
+
